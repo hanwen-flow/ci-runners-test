@@ -1,0 +1,1 @@
+A trivial bazel repository to demonstrate CI runners configuration
