@@ -1,4 +1,4 @@
-name: bazel (vm bento)
+name: bazel (vm bento) x64
 
 on:
   workflow_dispatch:
@@ -21,4 +21,4 @@ jobs:
 
     - name: Run bazel
       run: |
-        bazel info
+        set && which bazel && bazel info
