@@ -9,6 +9,8 @@ jobs:
     - self-hosted
     - "os=linux"
     - "arch=arm64"
+    # Substitute your cluster name, typically, a mineral name like
+    # "pyrite", "kyanite"
     - "engflow-cluster=local"
     - "engflow-bento-name=mybento-arm64"
     - "engflow-bento-allow-save=true"

@@ -1,3 +1,5 @@
+# For verifying that we report failures
+
 name: bazel, fail (bento)
 
 on:

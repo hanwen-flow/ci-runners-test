@@ -1,3 +1,5 @@
+# This configuration is for CI runners without 'warm bazel'.
+
 name: bazel (classic) arm64
 
 on:
