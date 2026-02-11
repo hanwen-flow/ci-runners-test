@@ -1,0 +1,23 @@
+name: QA bento x64 pyrite
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on:
+      - self-hosted
+      - "os=linux"
+      - "arch=x64"
+      - "engflow-cluster=pyrite"
+      - "engflow-bento-name=qa-test-gh-x64"
+      - "engflow-bento-allow-save=true"
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run presubmit checks
+        run: |
+          bazel test //...
