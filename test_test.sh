@@ -1,5 +1,5 @@
 #!/bin/sh
 
-echo "passed!"
+echo "FAIL!"
 
-echo 0
+exit 1 
