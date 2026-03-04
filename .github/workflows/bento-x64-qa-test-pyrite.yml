@@ -12,6 +12,7 @@ jobs:
       - "engflow-cluster=pyrite"
       - "engflow-bento-name=qa-test-gh-x64"
       - "engflow-bento-allow-save=true"
+      - "engflow-job-type=${{github.event_name}}-${{github.ref_name}}"
 
     steps:
       - uses: actions/checkout@v4
