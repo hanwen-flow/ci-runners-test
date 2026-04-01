@@ -12,7 +12,7 @@ jobs:
     # Substitute your cluster name, typically, a mineral name like
     # "pyrite", "kyanite"
     - "engflow-cluster=local"
-    - "engflow-8bento-name=mybento-arm64"
+    - "engflow-bento-name=mybento-arm64"
     - "engflow-bento-allow-save=true"
     - "engflow-job-type=${{github.event_name}}-${{github.ref_name}}"
     - "engflow-run-id=${{github.run_id}}"
