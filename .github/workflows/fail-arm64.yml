@@ -15,6 +15,7 @@ jobs:
     - "engflow-bento-name=mybento-arm64"
     - "engflow-bento-allow-save=true"
     - "engflow-job-type=${{github.event_name}}-${{github.ref_name}}"
+    - "engflow-run-id=${{github.run_id}}"
 
     steps:
     - uses: actions/checkout@v4
