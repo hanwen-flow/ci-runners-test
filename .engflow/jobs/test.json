@@ -1,6 +1,6 @@
 {
-    "bento-name": "test-engflowci-x64",
-    "engflow-cluster": "local",
-    "test-script": ["infra/run-tests.sh" ],
-    "allow-save": true
+    "bento_name": "test-engflowci-x64",
+    "engflow_cluster": "local",
+    "test_script": ["infra/run-tests.sh" ],
+    "allow_save": true
 }
